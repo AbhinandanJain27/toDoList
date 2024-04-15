@@ -1,0 +1,13 @@
+<div class ="addContainer">
+    <h4>Add Todo</h4>
+    <form class="addTodoForm" (ngSubmit)="OnSubmit()">
+        <input type="text" name="title" id="title" placeholder="Enter Title" [(ngModel)]="title" required>
+        <input type="text" name="desc" id="desc" placeholder="Enter Decription" [(ngModel)]="desc" required>
+        
+        <label>Choose Date</label>
+        <input type="date" aria-label="date" name="date" [(ngModel)]="date" required placeholder="Choose date" />
+
+        <button type="submit" class="btn">Add Todo</button>
+    </form>
+
+</div>

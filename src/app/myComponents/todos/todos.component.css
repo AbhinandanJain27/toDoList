@@ -1,0 +1,16 @@
+*{
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+}
+.addBox{
+    background-color: rgb(176, 136, 83);
+}
+.contains{
+    max-width: 80%;
+    margin : 0 10%;
+}
+.empty{
+    font-size: 1.5em;
+    padding-left: 1em;
+}

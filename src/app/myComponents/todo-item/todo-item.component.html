@@ -1,0 +1,9 @@
+<div class="element">
+    <h5 [ngClass]="{'strike': !todo.status}">{{ todo.title }}</h5>
+    <p [ngClass]="{'strike': !todo.status}">{{ todo.desc }}</p>
+    <p [ngClass]="{'strike': !todo.status}"> {{todo.date}}</p>
+    <div><label for="status">completed</label>
+        <input type="checkbox" name="status" id="status" [checked]="!todo.status" (click)=onCheckboxClick(todo)>
+    </div>
+    <button class="btn btn-sm btn-danger" (click) = "OnClick(todo)">Delete</button>
+</div>

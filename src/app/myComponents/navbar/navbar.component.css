@@ -1,0 +1,16 @@
+.nav{
+    display: flex;
+    margin: 0.2em 8.5em;
+}
+.nav a{
+    padding: 0 1em;
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+}
+.nav a:hover{
+    color: aquamarine;
+}
+
+.nav a:active{
+    color: aqua;
+}

@@ -1,0 +1,13 @@
+.footer{
+    margin-top: 1em;
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+    font-size: large;
+    color: rgb(251, 220, 171);
+    background-color: rgb(107, 44, 166);
+}
+.footer span{
+    color: red;
+    font-size: 1em;
+}
