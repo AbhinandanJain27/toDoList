@@ -1,0 +1,16 @@
+.contains{
+    max-width: 80%;
+    margin : 5% 10%;
+}
+
+.contains h2{
+    color: red;
+}
+
+.contains p{
+    font-size: 1.5em;
+}
+
+.contains h5{
+    color:aqua;
+}
