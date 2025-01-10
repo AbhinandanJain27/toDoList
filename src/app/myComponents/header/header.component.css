@@ -1,9 +1,20 @@
 .header{
-    padding: 1em;
+    padding: 0.2em;
     display: flex;
-    justify-content: center;
+    background-color: rgb(107, 44, 166);
+    color: rgb(251, 220, 171);
+    align-items: center;
+}
+.header .img{
+    padding-left: 2em;
+}
+.header img{    
+    width: 20%;
+    height: 100%;
+    border-radius: 50%;
+}
+.header .text{
     font-size: 2em;
     text-decoration: underline;
-    color: rgb(251, 220, 171);
-    background-color: rgb(107, 44, 166);
+    padding-left: 7em;
 }
